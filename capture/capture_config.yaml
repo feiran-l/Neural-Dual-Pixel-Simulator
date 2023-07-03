@@ -1,0 +1,42 @@
+base_dir: '../res'
+
+## dp setup
+dp_f_number_list: ['1.8', '2', '2.8', '4', '5.6', '22']
+dp_shutter_speed_list: ['1/100', '1/100', '1/100', '1/100', '1/100', '1/6']
+dp_iso_list: ['Auto', 'Auto', 'Auto', 'Auto', 'Auto', 'Auto']
+
+#dp_f_number_list: ['1.4', '22']
+#dp_shutter_speed_list: ['1/100', '1/100']
+#dp_iso_list: ['Auto', 'Auto']
+
+
+
+## calib setup
+n_calib_img: 3
+#board_size: [7.5, 5.6]
+#marker_division: [25, 18]
+board_size: [15, 11.194]
+marker_division: [12, 9]
+focal_len: 85
+pix_size: 0.01876  # for the 'Smaller JPEG (1920, 1280) resolution'
+calib_shutter_speed: '1/10'
+calib_f_number: '22'
+calib_iso: 'Auto'
+cam_mat_init_l: [[4.53091684435e+03, 0, 960], [0, 4.53091684435e+03, 640], [0, 0, 1]]  # for 85mm lens
+cam_mat_init_r: [[4.53091684435e+03, 0, 960], [0, 4.53091684435e+03, 640], [0, 0, 1]]
+dist_init_l: [0, 0, 0, 0, 0]
+dist_init_r: [0, 0, 0, 0, 0]
+
+
+## sl setup
+sl_img_size: [1680, 1120]
+proj_resolution: [1920, 1080]
+major_screen_resolution: 2560
+sl_shutter_speed: '1/200'
+sl_f_number: '22'
+sl_iso: '12800'
+
+# sl
+use_full_proj_res: False  # if True, use (1920, 1080) resolution, otherwise use (960, 600)
+white_thred: 5  # for pos-neg decode
+black_thred: 5  # for shading detection
