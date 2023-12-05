@@ -10,7 +10,7 @@
 
 ## Dataset
 ![DP5K Dataset](teaser/dataset_summary.png)
-* [Download the processed dataset here](https://www.dropbox.com/sh/ym03faddftnkclw/AACXN_8hKrTl6mKQuDS9xRl3a?dl=0). The train set (~110GB) is divided into several part to ease downloading. Please first download them all and then unzip.  
+* Download the processed RGB dataset [here (16-bit)](https://www.dropbox.com/sh/ym03faddftnkclw/AACXN_8hKrTl6mKQuDS9xRl3a?dl=0) or [here (8-bit)](https://www.kaggle.com/datasets/feiranli/dp5k-dataset). The train set (~110GB) is divided into several part to ease downloading. Please first download them all and then unzip.  
 
 * Each timestamp-named folder refers to one scenario. Within it:
     * `meta_data.h5` records various info such as focal length, focus distance, and calibration data
