@@ -10,13 +10,13 @@
 
 ## Dataset
 ![DP5K Dataset](teaser/dataset_summary.png)
-* Download the processed RGB dataset [here (16-bit)](https://www.dropbox.com/sh/ym03faddftnkclw/AACXN_8hKrTl6mKQuDS9xRl3a?dl=0) or [here (8-bit)](https://www.kaggle.com/datasets/feiranli/dp5k-dataset). The train set (~110GB) is divided into several part to ease downloading. Please first download them all and then unzip.  
+* Download the processed RGB dataset: [16-bit version from DropBox](https://www.dropbox.com/sh/ym03faddftnkclw/AACXN_8hKrTl6mKQuDS9xRl3a?dl=0) or [8-bit version from Kaggle](https://www.kaggle.com/datasets/feiranli/dp5k-dataset), [16-bit version from OneDrive](https://bupteducn-my.sharepoint.com/personal/guoheng_bupt_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fguoheng%5Fbupt%5Fedu%5Fcn%2FDocuments%2FDataset%2FDP&ga=1). Note that the bit depth difference only applies to the RGB image and depth maps are all in 16 bit.  
 
 * Each timestamp-named folder refers to one scenario. Within it:
     * `meta_data.h5` records various info such as focal length, focus distance, and calibration data
     * `cam0` and `cam1` contain the RGB DP images and depth maps of the left-right cameras, respectively. All RGB images are saved in 16-bit format. The depth maps are also saved in 16-bit format in mm unit. 
 
-* `data_processing/` contains the code we used for processing the data acquired from camera. 
+* `data_processing/` contains the code we used for processing the data acquired from the camera. 
 
 
 
