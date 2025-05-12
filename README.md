@@ -1,5 +1,5 @@
 # Neural-DP-Simulator
-[ICCP'23]: Learning to Synthesize Photorealistic Dual-pixel Images from RGBD Frames
+[ICCP'23]: [Learning to Synthesize Photorealistic Dual-pixel Images from RGBD Frames](https://ieeexplore.ieee.org/document/10233839)
 
 ##### Authors: [Feiran Li*](https://sites.google.com/view/feiranlihomepage/home), [Heng Guo*](https://gh-home.github.io/), [Hiroaki Santo](https://sites.google.com/view/hiroaki-santo/), [Fumio Okura](http://cvl.ist.osaka-u.ac.jp/user/okura/), [Yasuyuki Matsushita](http://cvl.ist.osaka-u.ac.jp/en/member/matsushita/)   (*equal contribution)
 
